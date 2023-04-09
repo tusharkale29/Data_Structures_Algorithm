@@ -42,7 +42,7 @@ int main()
     int evenindex = binary_search(even,6,18); // Passing array name,size and element to find :
 
     // Printing the index of the element :
-    cout << "Index of 18 is " << evenindex << endl;
+    cout << " 18 is found at index " << evenindex << endl;
 
     return 0;
 
