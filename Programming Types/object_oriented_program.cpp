@@ -22,7 +22,6 @@ class Rectangle {
             return 2*(length+breadth);
         }
 };
-
 int main() 
 {    
     int l,b;
