@@ -14,7 +14,7 @@
 using namespace std;
 
 void deleteOccu(char S[], char part[])
-{
+{ 
      int i=0;
      
      int lenS = strlen(S);

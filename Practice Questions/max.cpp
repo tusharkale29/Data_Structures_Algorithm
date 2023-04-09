@@ -1,8 +1,3 @@
-// Write a method/function, that takes an array of orders
-// and tells customer name who has placed the most number orders.
-
-// created on 04-08-2022.
-
 #include <iostream>
 using namespace std;
 
@@ -27,7 +22,10 @@ int maxOrder(struct order od1[], int len)
             if(od1[j].customer_id == od1[i].customer_id)
             {
                 count++; 
-                maxorder = od1[j].customer_id;
+                if(count > maxCount)
+                {
+                    maxorder = od1[j].customer_id;
+                }
             }
         }
     }
